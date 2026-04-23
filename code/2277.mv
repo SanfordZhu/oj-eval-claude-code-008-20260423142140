@@ -1,0 +1,11 @@
+# Setup mapping: 0->'0', 49->'1'
+[0]<48
+[49]<49
+# Read first, mark it
+A<I
+[A]<49
+# Read second, load flag and map to char
+B<I
+C<[B]
+O<[C]
+Z<1
